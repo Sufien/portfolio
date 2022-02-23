@@ -29,12 +29,13 @@ camera.position.setZ(30);
 //making the geometry, in this case the Torus
 const geometry = new THREE.TorusGeometry(5, 1, 16, 100);
 //we then set the materia of the object
-const material = new THREE.MeshStandardMaterial({color: 0xE9967A});
+const material = new THREE.MeshStandardMaterial({color: 0x1F618D});
 //to make the object 'alive' we mesh the geomettry of it with the material
 const torus = new THREE.Mesh(geometry, material);
 torus.position.set(30, 15, 0);
 scene.add(torus);
 
+//creating a box and putting an image as texture
 const sufienTexture = new THREE.TextureLoader().load('imagine_prof.jpeg');
 const image = new THREE.Mesh(
     new THREE.BoxGeometry(5, 5, 5),
@@ -48,7 +49,7 @@ scene.add(image);
 //in this case we add a lot of Icosahedron to make them look like stars
 function addStar() {
 
-    const geometry = new THREE.OctahedronGeometry(0.15, 0);
+    const geometry = new THREE.OctahedronGeometry(0.07, 0);
     const material = new THREE.MeshBasicMaterial(0xffffff);
     const star = new THREE.Mesh(geometry, material);
     
@@ -68,9 +69,9 @@ function addStar() {
 
 //creating and array and filling it with the addStar function
 //in random position ass we saw early in the addStar function
-Array(1300).fill().forEach(addStar);
+Array(700).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load('space1.jpg');
+const spaceTexture = new THREE.TextureLoader().load('space.jpg');
 scene.background = spaceTexture;
 
 
