@@ -13,9 +13,9 @@ main {
 }
 
 header {
-  grid-column: 2 / span 5;
+  grid-column: 2 / span 6;
   font-size: 2.5rem;
-  padding: 2rem;
+  padding: 1rem;
   color: white;
   margin-bottom: 18rem;
 }
@@ -23,17 +23,27 @@ header {
 blockquote {
   background: black;
   color: white;
-  grid-column: 2 / span 5;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 2rem;
 }
 
+.left {
+  grid-column: 2 / span 5;
+}
+
+.right {
+  grid-column: 6 / span 5;
+}
+
+.center {
+  grid-column: 4 / span 6;
+}
+
 section {
-  grid-column: 2 / span 6;
   background: transparent;
   color: white;
   font-size: 1.5rem;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 h1,
@@ -42,4 +52,8 @@ h3,
 h4 {
   color: steelblue;
   font-family: Jazz LET, fantasy;
+}
+
+.steelblue {
+  color: steelblue;
 }

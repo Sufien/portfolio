@@ -1,0 +1,222 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14187,
+      "max": [
+        1.7428059577941895,
+        1.2375357151031494,
+        1.7428059577941895
+      ],
+      "min": [
+        -1.7428057193756104,
+        1.1920930376163597e-07,
+        -1.742806077003479
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 170244,
+      "componentType": 5126,
+      "count": 14187,
+      "max": [
+        0.9999610781669617,
+        1.0,
+        0.9999610781669617
+      ],
+      "min": [
+        -0.9999610781669617,
+        -1.0,
+        -0.9999610781669617
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14187,
+      "max": [
+        1.0000001192092896,
+        1.0000009536743164
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 39984,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "vesicalsnail (https://sketchfab.com/milansaman21)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cocktail-shaker-2fbe8ebf76284db0b3c0ffd47e33d597",
+      "title": "Cocktail shaker"
+    },
+    "generator": "Sketchfab-12.34.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 159936,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 113496,
+      "byteOffset": 159936,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 340488,
+      "byteOffset": 273432,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 613920,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "cocktailshaker_metal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.388022,
+          0.388022,
+          0.388022,
+          1.0
+        ],
+        "roughnessFactor": 0.277273
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.05157044529914856,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.38753050565719604,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05157044529914856,
+        0.0,
+        -0.006023226771503687,
+        0.016057074069976807,
+        0.0,
+        1.0
+      ],
+      "name": "Cylinder_1"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

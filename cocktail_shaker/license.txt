@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cocktail shaker
+* source:	https://sketchfab.com/3d-models/cocktail-shaker-2fbe8ebf76284db0b3c0ffd47e33d597
+* author:	vesicalsnail (https://sketchfab.com/milansaman21)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cocktail shaker" (https://sketchfab.com/3d-models/cocktail-shaker-2fbe8ebf76284db0b3c0ffd47e33d597) by vesicalsnail (https://sketchfab.com/milansaman21) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

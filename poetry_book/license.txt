@@ -1,0 +1,11 @@
+Model Information:
+* title:	Poetry Book
+* source:	https://sketchfab.com/3d-models/poetry-book-57df56d0e5804dc78898e17c4ae95dce
+* author:	LenaGiul (https://sketchfab.com/LenaGiul)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Poetry Book" (https://sketchfab.com/3d-models/poetry-book-57df56d0e5804dc78898e17c4ae95dce) by LenaGiul (https://sketchfab.com/LenaGiul) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
