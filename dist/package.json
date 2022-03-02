@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "deploy": "gh-pages",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "three": "^0.137.5"
+  }
+}
